@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPER HERO</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.ico">
+    <meta name="description" content="Pagina de SuperHeroes">
+    <meta name="author" content="Ale Fuentes #Superman-doneado">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/8657e78088.js" crossorigin="anonymous"></script>
+    <!-- Ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0 fixed-top">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="./assets/img/sh2.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <a class="navbar-brand text-white ms-2" href="index.html">SuperHero</a>
+            </div>
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-5" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="listado.html" target="_blank">Listado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Alefuentes982" target="_blank">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--hero-section-->
+    <hero-section class="container-fluid">
+        <div class="col-lg-12 col-sm-12 d-flex justify-content-center">
+            <div class="col-lg-5 col-md-5 col-sm-5 text-center text-white py-2 mt-5">
+                <img src="./assets/img/sh1.jpg" class="img-fluid rounded-circle" alt="Logo"
+                    style="opacity: 0.88; max-width: 75%;">
+            </div>
+        </div>
+    </hero-section>
+
+    <!-- Busqueda -->
+    <section class="busqueda container-fluid col-lg-8 col-sm-8 col-md-8">
+        <div class="row justify-content-center align-items-center bg-warning rounded my-5" style="opacity: 0.88;">
+            <form class="form-inline py-2 text-center mx-auto col-lg-12 col-md-12 col-sm-12">
+                <div class="text-center text-white py-2 mt-3">
+                    <h1 class="text-white mb-4">Encuentra tu Super Hero</h1>
+                    <h3 class="text-white mb-3 d-none d-md-block">Ingresa el número del Super Hero a buscar</h3>
+                </div>
+                <div class="input-group mx-auto mb-3">
+                    <input class="form-control text-center rounded" type="search" aria-label="Search" id="idHero">
+                    <div class="input-group-append">
+                        <button class="btn btn-success ms-1" type="submit">Buscar</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-center text-light mt-auto">
+        <div class="col-lg-12">
+            <p class="mb-1 mt-3">© 2024 SuperHero | Desarrollado por Ale Fuentes</p>
+            <p class="mb-2">Me encuentras en: </p>
+        </div>
+        <div class="mb-3">
+            <a href="https://github.com/Alefuentes982" target="_blank" class="text-white me-3">
+                <i class="fa-brands fa-square-github fa-3x"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="text-white">
+                <i class="fab fa-linkedin fa-3x"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- scripts / CDN -->
+
+    <!--Popper js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <!--Jquery
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>-->
+
+    <!-- Mis script -->
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/jQuery.consultaAPI.js"></script>
+
+</body>
+
+</html>

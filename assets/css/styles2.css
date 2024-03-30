@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-image: url(../img/villanos-dc-2.jpg);
+    background-size:cover;
+    /*background-color: black;*/
+}
+
+.volver {
+    background-image: url(../img/sh_logos.png);
+    background-size:contain;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    opacity: 55%;
+}
+
+.volver a {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 220% ;
+    font-weight: 400;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    
+}
+
+/*
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}*/
+/*
+.hero-section, .busqueda {
+
+ position:absolute;
+ width: 30%;
+ height: 0%;
+ left: 35%;
+ top: 75%;
+}
+*/
